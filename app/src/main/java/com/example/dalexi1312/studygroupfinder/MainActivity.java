@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mChooseSignInButton;
 
 //this is a comment for testing
+    //now another comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

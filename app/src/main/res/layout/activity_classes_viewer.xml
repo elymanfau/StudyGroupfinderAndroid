@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_classes_viewer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dalexi1312.studygroupfinder.ClassesViewer">
+
+    <TextView
+        android:text="What classes are you taking?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/topOfClassesViewText"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:text=" CEN4010 Software Engineering                                             3 groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/classesFoundButton"
+        android:layout_below="@+id/topOfClassesViewText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="?attr/colorControlHighlight"
+        android:lines="2"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/enterClassPrefixEditText"
+        android:hint="type class prefix or name here"
+        android:singleLine="false"
+        android:layout_below="@+id/classesFoundButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:text="You can always search for classes you haven't enrolled in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:id="@+id/hintBottomOfClasses"
+        android:textSize="12sp"/>
+
+    <Button
+        android:text="Done, take me to Groups"
+        android:layout_height="wrap_content"
+        android:id="@+id/takeMeToGroupsButton"
+        android:layout_width="match_parent"
+        android:background="@color/faublue"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".classview">
         </activity>
+        <activity android:name=".TabsView">
+        </activity>
     </application>
 
 </manifest>
